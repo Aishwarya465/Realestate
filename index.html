@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavya Constructions</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="index.html">Bhavya Constructions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+                    <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                        <a class="dropdown-item" href="vision.html">Vision</a>
+                        <a class="dropdown-item" href="values.html">Values</a>
+                        <a class="dropdown-item" href="mission.html">Mission</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hd1 bg-primary text-white text-center">
+        <div class="container">
+            <h1 class="display-4">Building Your Dreams</h1>
+            <p class="lead">Quality constructions that last a lifetime.</p>
+            <a href="#contact" class="btn btn-light btn-lg">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="text-center">About Us</h2>
+                    <p>Bhavya Constructions has been a leader in the real estate industry for over a decade. We pride ourselves on delivering exceptional quality and service.</p>
+                    <p>Bhavya Constructions is a premier real estate company dedicated to creating exceptional living spaces. With over a decade of experience, we specialize in residential and commercial properties, offering innovative designs and superior construction quality. Our commitment to excellence ensures that every project meets the highest standards of durability and aesthetic appeal. At Bhavya Constructions, we prioritize customer satisfaction by delivering personalized solutions tailored to individual needs. Our team of skilled professionals works diligently to bring your vision to life, making your dream home or office a reality. Trust us to build a future where quality and reliability come together seamlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Our Projects</h2>
+            <div class="row">
+                <!-- Repeat this block for each project -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/1.jpg" class="card-img-top" alt="Project">
+                        <div class="card-body">
+                            <h5 class="card-title">High Rise Building</h5>
+                            <p class="card-text">A high-rise building is a tall, multi-story structure designed for residential, commercial, or mixed-use purposes, offering expansive views.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/2.jpg" class="card-img-top" alt="Project">
+                        <div class="card-body">
+                            <h5 class="card-title">City Building</h5>
+                            <p class="card-text">A city building is a structure in an urban area, used for various purposes like offices, housing, or commerce.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/3.jpg" class="card-img-top" alt="Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Tokyo Panasonic</h5>
+                            <p class="card-text">Tokyo Panasonic is a major division of Panasonic Corporation, specializing in electronics, technology solutions, and consumer products in Tokyo.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of project block -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="social-icons">
+            <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+        </div><br>
+        <p>&copy; 2024 Bhavya Constructions. All rights reserved.</p>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
